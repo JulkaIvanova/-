@@ -27,7 +27,7 @@ envelopes = toponym["boundedBy"]["Envelope"]
 lower_corner = envelopes["lowerCorner"].split()
 upper_corner = envelopes["upperCorner"].split()
 spn_longitude, spn_latitude = get_spn(lower_corner, upper_corner)
-apikey = "f3a0fe3a-b07e-4840-a1da-06f18b2ddf13"
+apikey = "37db8bb4-5347-4a85-a54f-a594f7c123ea"
 map_params = {
     "ll": ",".join([toponym_longitude, toponym_latitude]),
     "spn": ",".join([spn_longitude, spn_latitude]),
